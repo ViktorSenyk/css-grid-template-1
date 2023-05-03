@@ -55,9 +55,6 @@
     grid-row: 2/3;
 
     &__content-box {
-      grid-column: 1/-1;
-      grid-row: auto;
-
       &[data-box-number='1'] {
         grid-column: 1/-1;
       }

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import './header';
+@import './sidebar';
+@import './top-section';
+@import './bottom-section';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 338px auto;
+  grid-template-rows: 140px minmax(760px, auto) minmax(322px, auto);
+  grid-auto-rows: 300px;
+  gap: 30px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 140px minmax(748px, auto) 280px minmax(322px, auto);
+    gap: 24px;
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .wrapper {
+    grid-template-rows: 140px auto 600px;
+    grid-auto-rows: 300px;
+    gap: 15px;
+    width: 520px;
+  }
+}

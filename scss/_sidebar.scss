@@ -1,0 +1,21 @@
+.sidebar {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #e7e7e7;
+
+  &::before {
+    content: attr(data-name);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 1439px) {
+  .sidebar {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+  }
+}

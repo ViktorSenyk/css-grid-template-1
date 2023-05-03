@@ -1,6 +1,6 @@
 # CSS GRID TEMPLATE - 1
 
-### [Site link](https://viktorsenyk.github.io/vangoux-lp/)
+### [Site link](https://viktorsenyk.github.io/css-grid-template-1/)
 
 Layout supports mobile (up-to-1023px), tablet (up-to-1439px) and desktop (up-to-1920) versions
 
